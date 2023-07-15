@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    font-size:100%;
+    vertical-align: baseline;
+}
+
+
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+
+/*logo informatica404 + servicios computacionales*/
+.logo {
+    /*margin-left: 30px;*/
+    color: #1F6E8C
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#1F6E8C;
+    text-transform: uppercase;
+}
+
+/*opciones de navegación*/
+
+.header-nav{
+    display: flex;
+    margin-right: 10px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color:#1F6E8C;
+    color: 20px;
+    margin-right: 10px;
+    text-transform: none;
+    font-size: 20px;
+    padding: 23px 20px;
+}
+
+/*foto con texto principal*/
+
+.contenido_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido_header{
+   height: 60vh !important;
+   background: url(../asset/img/encabezado.jpg) no-repeat center;
+   background-size: cover; /*tamaño pantalla*/
+   font-size: 50px;
+   color: #c1daea;
+}
+
+.titulo{
+   text-align: right;
+ 
+}
+.titulo2{
+    text-align: right;
+    font-size: 30px;
+}
+
+.cabeza{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:60px;
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+}
+/*Preentación del servicio*/
+.texto{
+    line-height: 2;
+    color:#0E2954;
+    font-size: 18px;
+    text-align: center;
+}
+/*cajas con servicios y descripciones*/
+.boxfotos {
+    list-style: none;
+    float: left;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.box1 {
+    width:400px;
+    height:140px;
+    background-color: #313030;
+    font-size:15px;
+    color: #FFFFFF;
+    float: left;
+    list-style: none;
+    display: flex;
+}
+.box2{
+    width:400px;
+    height:140px;
+    background-color: #313030;
+    font-size:15px;
+    color: #FFFFFF;
+    float: left;
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+}
+.box3 {
+    width:400px;
+    height:140px;
+    background-color: #313030;
+    font-size:15px;
+    color: #FFFFFF;
+    float: left;
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+}
+/*pagina empresa*/
+.boxempresa{
+    width:400px;
+    height:300px;
+    line-height: "1.5";
+    background-color: #313030;
+    font-size:15px;
+    color: #FFFFFF;
+    float: left;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.boxempresa2{
+    width: 600px;
+    height:300px;
+    line-height: "1.5";
+    background-color: #313030;
+    font-size:15px;
+    color: #FFFFFF;
+    float: left;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    /*align-items: center;
+    list-style: none;*/
+}
+.contenido_header_empresa{
+    height: 60vh !important;
+    background: url(../asset/img/pucon-emp.jpg) no-repeat center;
+    background-size: cover; /*tamaño pantalla*/
+    font-size: 50px;
+    color: #c1daea;
+ }
+ .titulo_empresa{
+    text-align: center;
+    font-size: "30px";
+    color:#0E2954;
+    height: "30px";
+ }
+ .clientes a{
+    text-align: center;
+    font-size: "25px";
+    color:#0E2954;
+    background-color:#c1daea;
+    align-items: center;
+ }
+ .fotos3 a{
+    text-align:center;
+ }
+/*footer -- no lo puedo centrar */
+.pie-div {
+    /*text-decoration: none;*/
+    color: #1F6E8C;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    align-self:flex-end;
+    background-color: #D9D9D9;
+    width:100%;
+    height: 30px;
+}
+.formulario{
+    color: #1F6E8C;
+    font-size: 14px;
+    background-color: #D9D9D9;
+    height: 1000px;
+    padding: 100px;
+}
+
